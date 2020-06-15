@@ -1,0 +1,6 @@
+import pandas as pd
+
+# Read the csv file in chunks of 50000 lines
+# Loading the NPI data from the npi database laoded already 
+for i,chunk in enumerate(pd.read_csv('npidata_pfile_20050523-20200209.csv', chunksize=50000, low_memory=False)):
+    chunk.to_csv('chunk{}.csv'.format(i), index='False')
