@@ -13,3 +13,4 @@ plt.yticks(rotation=0)
 plt.show()
 
 #More awesome plots: https://towardsdatascience.com/heatmap-basics-with-pythons-seaborn-fb92ea280a6c
+#Correlation does not mean causation - What to do with correlated variables?: https://towardsdatascience.com/why-feature-correlation-matters-a-lot-847e8ba439c4
